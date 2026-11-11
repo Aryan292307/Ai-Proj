@@ -7,6 +7,12 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <div class="bg-blobs" aria-hidden="true">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+  </div>
+
   <header class="nav">
     <div class="nav-brand">Bloom & Blade</div>
     <nav>
@@ -17,25 +23,25 @@
   </header>
 
   <section class="hero">
-    <h1>Look good. Feel better.</h1>
-    <p>Hair, color, and styling for every occasion — walk-ins welcome, appointments preferred.</p>
-    <a href="#book" class="btn">Book an appointment</a>
+    <h1 class="reveal">Look good. <span class="gradient-text">Feel better.</span></h1>
+    <p class="reveal">Hair, color, and styling for every occasion — walk-ins welcome, appointments preferred.</p>
+    <a href="#book" class="btn reveal">Book an appointment</a>
   </section>
 
   <section id="services" class="services">
-    <h2>Services & Pricing</h2>
+    <h2 class="reveal">Services & Pricing</h2>
     <div class="grid">
-      <div class="card">
+      <div class="card glass reveal">
         <h3>Haircut & Style</h3>
         <p class="price">$35</p>
         <p>Wash, cut, and blow-dry finish.</p>
       </div>
-      <div class="card">
+      <div class="card glass reveal">
         <h3>Color & Highlights</h3>
         <p class="price">$85+</p>
         <p>Full color, balayage, or highlights.</p>
       </div>
-      <div class="card">
+      <div class="card glass reveal">
         <h3>Bridal Package</h3>
         <p class="price">$150</p>
         <p>Trial + day-of styling for your big day.</p>
@@ -44,18 +50,20 @@
   </section>
 
   <section id="about" class="about">
-    <h2>About us</h2>
-    <p>Bloom & Blade has been the neighborhood's go-to salon for over 8 years. Our stylists keep up with the latest trends so you always leave looking your best.</p>
+    <h2 class="reveal">About us</h2>
+    <p class="reveal">Bloom & Blade has been the neighborhood's go-to salon for over 8 years. Our stylists keep up with the latest trends so you always leave looking your best.</p>
   </section>
 
   <section id="book" class="book">
-    <h2>Book your visit</h2>
-    <p>Call us or send a message — we'll get back to you within the day.</p>
-    <a href="tel:+10000000000" class="btn">Call Now</a>
+    <h2 class="reveal">Book your visit</h2>
+    <p class="reveal">Call us or send a message — we'll get back to you within the day.</p>
+    <a href="tel:+10000000000" class="btn reveal">Call Now</a>
   </section>
 
   <footer>
     <p>&copy; 2026 Bloom & Blade Salon · Open Tue–Sun, 9am–7pm</p>
   </footer>
+
+  <script src="../shared-reveal.js"></script>
 </body>
 </html>
