@@ -1,20 +1,22 @@
 # Instagram Page Setup
 
-## Handle options (pick one)
-- @aryan.webdesign
-- @madebyaryan.co
-- @pixelcraft.studio
+## Handle (final)
+@pixelcraft.studio
 
 ## Display name
-Aryan Acharya | Web & Design
+Pixelcraft Studio
 
-## Bio (paste as-is, fill in the link)
+## Bio (paste as-is)
 ```
-Websites that convert + ads/banners that pop 🎨
+Websites + ads/banners that get you customers 🎨
 📩 DM for a free mockup, no obligation
-👇 See my work
+👇 See our work
 ```
 Link in bio: https://aryan292307.github.io/Ai-Proj/
+
+## Note
+No personal name anywhere on this page — business name only.
+The portfolio website itself still has the real name on it, that's fine and unchanged.
 
 ## Highlights to create (after a few posts)
 - Websites
