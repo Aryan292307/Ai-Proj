@@ -25,7 +25,17 @@
     align-items: center;
     justify-content: center;
   }
-  svg { width: 280px; height: 280px; }
+  .s {
+    font-family: -apple-system, "Segoe UI", Roboto, sans-serif;
+    font-size: 340px;
+    font-weight: 800;
+    line-height: 1;
+    background: linear-gradient(135deg, #9fd8ff, #d6b3ff, #ffb3d9);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    filter: drop-shadow(0 0 30px rgba(178, 79, 255, 0.35));
+  }
 </style>
 </head>
 <body>
@@ -35,16 +45,7 @@
     <div class="blob b3"></div>
   </div>
   <div class="wrap">
-    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-      <defs>
-        <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
-          <stop offset="0%" stop-color="#9fd8ff"/>
-          <stop offset="50%" stop-color="#e0b3ff"/>
-          <stop offset="100%" stop-color="#ffb3d9"/>
-        </linearGradient>
-      </defs>
-      <polygon points="58,2 18,56 46,56 40,98 86,40 54,40" fill="url(#g)" stroke="white" stroke-width="2" stroke-linejoin="round"/>
-    </svg>
+    <div class="s">S</div>
   </div>
 </body>
 </html>
