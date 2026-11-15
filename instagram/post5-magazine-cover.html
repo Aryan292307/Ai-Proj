@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body {
+    width: 1080px;
+    height: 1350px;
+    overflow: hidden;
+    font-family: Georgia, "Times New Roman", serif;
+    background: linear-gradient(160deg, #1a1033 0%, #3a1850 40%, #7a1f5c 75%, #d94f70 100%);
+    color: white;
+  }
+  .wrap { position: relative; height: 100%; padding: 56px 60px; display: flex; flex-direction: column; }
+
+  .top-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-family: "Segoe UI", Roboto, sans-serif;
+    font-size: 24px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    opacity: 0.85;
+  }
+
+  .masthead {
+    font-size: 130px;
+    font-weight: 900;
+    letter-spacing: 4px;
+    text-align: center;
+    margin: 10px 0 0;
+    text-transform: uppercase;
+  }
+
+  .coverline-top {
+    font-family: "Segoe UI", Roboto, sans-serif;
+    text-align: center;
+    font-size: 26px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #ffd27a;
+    margin-top: 6px;
+  }
+
+  .main-area { flex: 1; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; }
+  .headline { font-size: 92px; font-weight: 800; line-height: 1.05; margin-bottom: 24px; }
+  .sub { font-family: "Segoe UI", Roboto, sans-serif; font-size: 32px; font-weight: 400; max-width: 760px; opacity: 0.9; }
+
+  .side-lines {
+    position: absolute;
+    right: 60px;
+    top: 420px;
+    text-align: right;
+    font-family: "Segoe UI", Roboto, sans-serif;
+  }
+  .side-lines div { font-size: 26px; margin-bottom: 18px; font-weight: 600; }
+  .side-lines .num { color: #ffd27a; margin-right: 8px; }
+
+  .bottom-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-family: "Segoe UI", Roboto, sans-serif;
+    font-size: 22px;
+    letter-spacing: 1px;
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="top-row">
+      <div>Issue No. 01</div>
+      <div>2026</div>
+    </div>
+    <div class="masthead">HUSTLE</div>
+    <div class="coverline-top">The Side-Income Issue</div>
+
+    <div class="main-area">
+      <div class="headline">Build It<br>While You<br>Study.</div>
+      <div class="sub">How small bets, real clients, and a little AI help turn into income.</div>
+    </div>
+
+    <div class="side-lines">
+      <div><span class="num">01</span>Pricing Your First Gig</div>
+      <div><span class="num">02</span>Design On A Budget</div>
+      <div><span class="num">03</span>Turning DMs Into Deals</div>
+    </div>
+
+    <div class="bottom-row">
+      <div>Sample design &middot; @aryan.webdesign</div>
+      <div>HUSTLEMAG.COM</div>
+    </div>
+  </div>
+</body>
+</html>
