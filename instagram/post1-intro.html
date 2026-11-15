@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body {
+    width: 1080px;
+    height: 1080px;
+    overflow: hidden;
+    font-family: -apple-system, "Segoe UI", Roboto, sans-serif;
+    background: #0b0c10;
+  }
+  .blobs {
+    position: absolute;
+    inset: 0;
+    filter: blur(110px) saturate(140%);
+  }
+  .blob { position: absolute; border-radius: 50%; opacity: 0.55; }
+  .b1 { width: 620px; height: 620px; background: #4f8cff; top: -120px; left: -120px; }
+  .b2 { width: 600px; height: 600px; background: #b24fff; top: 300px; right: -150px; }
+  .b3 { width: 560px; height: 560px; background: #ff4f9a; bottom: -140px; left: 200px; }
+  .b4 { width: 500px; height: 500px; background: #4fe0c9; bottom: -80px; right: 100px; }
+
+  .content {
+    position: relative;
+    z-index: 2;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 80px;
+    color: white;
+  }
+  .tag {
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #9fd8ff;
+    margin-bottom: 28px;
+  }
+  h1 {
+    font-size: 86px;
+    font-weight: 800;
+    line-height: 1.08;
+    margin-bottom: 30px;
+  }
+  .gradient {
+    background: linear-gradient(90deg, #4f8cff, #b24fff, #ff4f9a);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  p.sub {
+    font-size: 36px;
+    color: #c7cedb;
+    max-width: 780px;
+    margin-bottom: 56px;
+  }
+  .cta {
+    background: linear-gradient(90deg, #4f8cff, #b24fff);
+    padding: 26px 64px;
+    border-radius: 100px;
+    font-size: 36px;
+    font-weight: 700;
+    box-shadow: 0 20px 50px rgba(79,140,255,0.35);
+  }
+  .handle {
+    position: absolute;
+    bottom: 50px;
+    font-size: 28px;
+    color: #8a93a3;
+    letter-spacing: 1px;
+  }
+</style>
+</head>
+<body>
+  <div class="blobs">
+    <div class="blob b1"></div>
+    <div class="blob b2"></div>
+    <div class="blob b3"></div>
+    <div class="blob b4"></div>
+  </div>
+  <div class="content">
+    <div class="tag">Websites &middot; Banners &middot; Ads</div>
+    <h1>I build <span class="gradient">websites</span><br>&amp; design <span class="gradient">ads</span><br>that get you customers.</h1>
+    <p class="sub">Free mockup before you pay anything. DM me and let's talk about your business.</p>
+    <div class="cta">DM me &middot; Free Quote</div>
+  </div>
+  <div class="handle">@aryan.webdesign</div>
+</body>
+</html>
