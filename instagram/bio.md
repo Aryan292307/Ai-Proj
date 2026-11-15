@@ -1,22 +1,24 @@
-# Instagram Page Setup
+# Instagram Page Setup (final)
 
-## Handle (final)
-@pixelcraft.studio
+## Handle
+@sparksite.co
 
-## Display name
-Pixelcraft Studio
+## Name field
+SparkSite | Web & Design
 
-## Bio (paste as-is)
+## Bio
 ```
-Websites + ads/banners that get you customers 🎨
-📩 DM for a free mockup, no obligation
+🌐 Websites + 🎨 Ad/Banner Design
+📩 Free mockup before you pay anything
 👇 See our work
 ```
 Link in bio: https://aryan292307.github.io/Ai-Proj/
 
+## Profile picture
+instagram/profile-pic.png (lightning bolt mark, brand gradient)
+
 ## Note
-No personal name anywhere on this page — business name only.
-The portfolio website itself still has the real name on it, that's fine and unchanged.
+No personal name anywhere on this page. Portfolio website keeps the real name, unchanged.
 
 ## Highlights to create (after a few posts)
 - Websites
