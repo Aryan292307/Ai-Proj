@@ -116,8 +116,8 @@ a { color: inherit; text-decoration: none; }
   box-shadow: 0 12px 32px rgba(122, 92, 240, 0.4);
 }
 
-.subjects, .schedule, .contact { padding: 64px 48px; }
-.subjects h2, .schedule h2, .contact h2 { font-size: 1.5rem; margin-bottom: 28px; }
+.subjects, .pricing-section, .tutors, .results, .contact { padding: 64px 48px; }
+.subjects h2, .pricing-section h2, .tutors h2, .contact h2 { font-size: 1.5rem; margin-bottom: 28px; }
 
 .grid {
   display: grid;
@@ -145,12 +145,90 @@ a { color: inherit; text-decoration: none; }
 .card h3 { font-size: 1rem; margin-bottom: 6px; }
 .card p { color: var(--muted); font-size: 0.9rem; }
 
-table { border-collapse: collapse; width: 100%; max-width: 400px; margin-bottom: 16px; }
-td { padding: 10px 0; border-bottom: 1px solid var(--border); color: var(--muted); }
-td:first-child { font-weight: 600; color: var(--text); }
-
 .note { color: var(--muted); font-size: 0.9rem; }
 .contact p { color: var(--muted); margin-bottom: 24px; }
+
+/* ---- subject accordion (left-border card style, distinct from a boxed FAQ) ---- */
+.subject-card {
+  background: var(--bg-card);
+  border-left: 4px solid var(--accent);
+  border-radius: 8px;
+  padding: 16px 22px;
+  margin-bottom: 12px;
+  max-width: 640px;
+  text-align: left;
+}
+.subject-card summary {
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+}
+.subject-card summary::-webkit-details-marker { display: none; }
+.subject-card summary .tag {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--accent);
+  background: rgba(47, 111, 237, 0.1);
+  padding: 3px 10px;
+  border-radius: 999px;
+}
+.subject-card p { color: var(--muted); margin-top: 10px; font-size: 0.92rem; }
+
+/* ---- pricing table ---- */
+.price-table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 560px;
+  margin: 0 auto 20px;
+  background: var(--bg-card);
+  border-radius: 12px;
+  overflow: hidden;
+}
+.price-table th, .price-table td {
+  padding: 14px 18px;
+  text-align: left;
+  border-bottom: 1px solid var(--border);
+}
+.price-table th {
+  background: var(--accent);
+  color: white;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.price-table td:nth-child(2) { color: var(--accent); font-weight: 700; }
+.price-table td:nth-child(3) { color: var(--muted); font-size: 0.9rem; }
+.pricing-section { text-align: center; }
+
+/* ---- tutor list ---- */
+.tutor-list { list-style: none; max-width: 640px; margin: 0 auto; text-align: left; }
+.tutor-list li {
+  padding: 16px 0;
+  border-bottom: 1px solid var(--border);
+  color: var(--muted);
+}
+.tutor-list strong { color: var(--text); }
+
+/* ---- results blockquote ---- */
+.results { text-align: center; }
+.results blockquote {
+  max-width: 620px;
+  margin: 0 auto;
+  font-size: 1.4rem;
+  font-style: italic;
+  line-height: 1.5;
+  color: var(--text);
+}
+.results blockquote footer {
+  margin-top: 16px;
+  font-size: 0.95rem;
+  font-style: normal;
+  font-weight: 600;
+  color: var(--accent);
+}
 
 footer {
   text-align: center;
@@ -172,7 +250,7 @@ footer {
 }
 
 @media (max-width: 600px) {
-  .nav, .hero, .subjects, .schedule, .contact { padding-left: 24px; padding-right: 24px; }
+  .nav, .hero, .subjects, .pricing-section, .tutors, .results, .contact { padding-left: 24px; padding-right: 24px; }
   .hero h1 { font-size: 1.8rem; }
   .blob { width: 70vw; height: 70vw; }
 }

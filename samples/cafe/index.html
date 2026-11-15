@@ -21,6 +21,7 @@
     <div class="nav-brand">The Daily Grind</div>
     <nav>
       <a href="#menu">Menu</a>
+      <a href="#gallery">Gallery</a>
       <a href="#hours">Hours</a>
       <a href="#location">Location</a>
     </nav>
@@ -32,13 +33,53 @@
     <a href="#location" class="btn reveal">Find us</a>
   </section>
 
+  <section class="special reveal">
+    <span class="special-tag">Today's Special</span>
+    <span class="special-text">Hazelnut Cold Brew — ₹199, only till 2pm</span>
+  </section>
+
   <section id="menu" class="menu">
-    <h2 class="reveal">Menu highlights</h2>
-    <div class="grid">
-      <div class="card glass reveal"><h3>Flat White</h3><p>$4.50</p></div>
-      <div class="card glass reveal"><h3>Cold Brew</h3><p>$4.00</p></div>
-      <div class="card glass reveal"><h3>Almond Croissant</h3><p>$3.75</p></div>
-      <div class="card glass reveal"><h3>Avocado Toast</h3><p>$7.50</p></div>
+    <h2 class="reveal">Menu</h2>
+
+    <input type="radio" name="menutab" id="tab-coffee" class="tab-radio" checked>
+    <input type="radio" name="menutab" id="tab-food" class="tab-radio">
+    <input type="radio" name="menutab" id="tab-specials" class="tab-radio">
+
+    <div class="tabs reveal">
+      <label for="tab-coffee">Coffee</label>
+      <label for="tab-food">Food</label>
+      <label for="tab-specials">Specials</label>
+    </div>
+
+    <div class="tab-panels reveal">
+      <div class="panel panel-coffee grid">
+        <div class="card glass"><h3>Flat White</h3><p>₹180</p></div>
+        <div class="card glass"><h3>Cold Brew</h3><p>₹160</p></div>
+        <div class="card glass"><h3>Cappuccino</h3><p>₹170</p></div>
+        <div class="card glass"><h3>Filter Coffee</h3><p>₹90</p></div>
+      </div>
+      <div class="panel panel-food grid">
+        <div class="card glass"><h3>Almond Croissant</h3><p>₹140</p></div>
+        <div class="card glass"><h3>Avocado Toast</h3><p>₹280</p></div>
+        <div class="card glass"><h3>Banana Bread</h3><p>₹120</p></div>
+        <div class="card glass"><h3>Grilled Sandwich</h3><p>₹190</p></div>
+      </div>
+      <div class="panel panel-specials grid">
+        <div class="card glass"><h3>Hazelnut Cold Brew</h3><p>₹199</p></div>
+        <div class="card glass"><h3>Weekend Brunch Plate</h3><p>₹349</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="gallery">
+    <h2 class="reveal">A peek inside</h2>
+    <div class="photo-grid reveal">
+      <div class="photo p1"></div>
+      <div class="photo p2"></div>
+      <div class="photo p3"></div>
+      <div class="photo p4"></div>
+      <div class="photo p5"></div>
+      <div class="photo p6"></div>
     </div>
   </section>
 

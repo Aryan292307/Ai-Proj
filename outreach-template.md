@@ -26,6 +26,6 @@ Would that be useful?
 Hi [Owner's name], just following up on the free website mockup I offered — still happy to put one together if you're interested. Low effort on your end either way.
 
 ## Pricing ladder (raise as you gain proof of work)
-1. First 2-3 clients: $30-75 (build portfolio + testimonials)
-2. Next clients: $100-250 per site
-3. Once you have 5+ live sites: $250-500+, or recurring maintenance fee ($10-20/month)
+1. First 2-3 clients: ₹1,000-1,500 (build portfolio + testimonials)
+2. Next clients: ₹2,500-5,000 per site
+3. Once you have 5+ live sites: ₹7,000-15,000+, or recurring maintenance fee (₹500-1,000/month)
