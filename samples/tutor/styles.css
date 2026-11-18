@@ -16,8 +16,10 @@ html { scroll-behavior: smooth; }
 body {
   font-family: "Inter", "Segoe UI", Roboto, Arial, sans-serif;
   background:
-    radial-gradient(circle, rgba(47,111,237,0.12) 1.5px, transparent 1.5px) 0 0 / 28px 28px,
-    var(--bg);
+    radial-gradient(circle, rgba(47,111,237,0.14) 1.5px, transparent 1.5px) 0 0 / 28px 28px,
+    linear-gradient(180deg, rgba(244,247,251,0.88), rgba(244,247,251,0.94)),
+    url('https://images.pexels.com/photos/2455119/pexels-photo-2455119.jpeg?auto=compress&cs=tinysrgb&w=1600') center top / cover no-repeat;
+  background-color: var(--bg);
   color: var(--text);
   line-height: 1.6;
   position: relative;

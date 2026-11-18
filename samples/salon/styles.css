@@ -15,7 +15,10 @@ html { scroll-behavior: smooth; }
 
 body {
   font-family: "Lora", Georgia, serif;
-  background: var(--bg);
+  background:
+    linear-gradient(180deg, rgba(253,246,243,0.55), rgba(253,246,243,0.72)),
+    url('https://images.pexels.com/photos/3847492/pexels-photo-3847492.jpeg?auto=compress&cs=tinysrgb&w=1600') center / cover no-repeat;
+  background-color: var(--bg);
   color: var(--text);
   line-height: 1.6;
   position: relative;
